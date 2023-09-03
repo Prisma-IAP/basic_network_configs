@@ -33,7 +33,8 @@ cgroup_memory=1 cgroup_enable=memory ip=192.168.0.10::192.168.0.1:255.255.255.0:
 arm_64bit=1
 ```
 - Crie um arquivo em branco ssh na pasta boot
-- Como administrador, aplique o comando ``sudo iptables -F`` e reinicie em seguida
+- Como administrador, aplique o comando ``sudo iptables -F``
+- Ao término das atualizações, use o comando ``sudo reboot`` para reiniciar o computador
 
 ## Passo 03: Atualizar o hostname
 - No Raspberry é possível alterar através do *Raspberry Pi Imager* durante o processo de criação da imagem
