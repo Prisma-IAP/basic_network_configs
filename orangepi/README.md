@@ -24,4 +24,4 @@ gateway 192.168.0.1
 ## Passo 03: Atualizar o hostname
 - Utilize o comando ``hostname nome_desejado`` 
 - Acesse o arquivo em ``/etc/hostname``, substitua pelo mesmo nome informado na etapa acima
-- Reinicie o computador para aplicar todas as alterações
+- Ao término das atualizações, use o comando ``sudo reboot`` para reiniciar o computador
